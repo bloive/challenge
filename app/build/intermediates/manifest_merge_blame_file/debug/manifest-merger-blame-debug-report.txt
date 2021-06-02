@@ -1,0 +1,56 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.university.exam8"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\enbok\AndroidStudioProjects\Challenge1\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\enbok\AndroidStudioProjects\Challenge1\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Users\enbok\AndroidStudioProjects\Challenge1\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\enbok\AndroidStudioProjects\Challenge1\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\enbok\AndroidStudioProjects\Challenge1\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\enbok\AndroidStudioProjects\Challenge1\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <application
+14-->C:\Users\enbok\AndroidStudioProjects\Challenge1\app\src\main\AndroidManifest.xml:8:5-23:19
+15        android:name="com.university.exam8.App"
+15-->C:\Users\enbok\AndroidStudioProjects\Challenge1\app\src\main\AndroidManifest.xml:15:9-28
+16        android:allowBackup="true"
+16-->C:\Users\enbok\AndroidStudioProjects\Challenge1\app\src\main\AndroidManifest.xml:9:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.5.0] C:\Users\enbok\.gradle\caches\transforms-2\files-2.1\2035b8ef85a6eac2fc4525b65dd8dd0d\core-1.5.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\enbok\AndroidStudioProjects\Challenge1\app\src\main\AndroidManifest.xml:10:9-43
+20        android:label="challenge"
+20-->C:\Users\enbok\AndroidStudioProjects\Challenge1\app\src\main\AndroidManifest.xml:11:9-34
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\enbok\AndroidStudioProjects\Challenge1\app\src\main\AndroidManifest.xml:12:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\enbok\AndroidStudioProjects\Challenge1\app\src\main\AndroidManifest.xml:13:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->C:\Users\enbok\AndroidStudioProjects\Challenge1\app\src\main\AndroidManifest.xml:14:9-40
+25        <activity android:name="com.university.exam8.ui.activities.NewsActivity" >
+25-->C:\Users\enbok\AndroidStudioProjects\Challenge1\app\src\main\AndroidManifest.xml:16:9-21:20
+25-->C:\Users\enbok\AndroidStudioProjects\Challenge1\app\src\main\AndroidManifest.xml:16:19-61
+26            <intent-filter>
+26-->C:\Users\enbok\AndroidStudioProjects\Challenge1\app\src\main\AndroidManifest.xml:17:13-20:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\enbok\AndroidStudioProjects\Challenge1\app\src\main\AndroidManifest.xml:18:17-68
+27-->C:\Users\enbok\AndroidStudioProjects\Challenge1\app\src\main\AndroidManifest.xml:18:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\enbok\AndroidStudioProjects\Challenge1\app\src\main\AndroidManifest.xml:19:17-76
+29-->C:\Users\enbok\AndroidStudioProjects\Challenge1\app\src\main\AndroidManifest.xml:19:27-74
+30            </intent-filter>
+31        </activity>
+32    </application>
+33
+34</manifest>

@@ -1,0 +1,2 @@
+com/university/exam8/BuildConfig.java
+ com.university.exam8.BuildConfig
